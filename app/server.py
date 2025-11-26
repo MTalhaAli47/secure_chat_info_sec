@@ -19,7 +19,7 @@ KEY_PATH = os.getenv("SERVER_KEY", "certs/server.key.pem")
 EXPECTED_CLIENT_CN = os.getenv("EXPECTED_CLIENT_CN", "client.local")
 CA_CERT = os.getenv("CA_CERT", "certs/ca.cert.pem")
 
-HOST = os.getenv("SERVER_HOST", "127.0.0.2")
+HOST = os.getenv("SERVER_HOST", "127.0.0.1")
 PORT = int(os.getenv("SERVER_PORT", "9000"))
 
 
